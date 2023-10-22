@@ -649,6 +649,10 @@ video {
   width: 1.25rem;
 }
 
+.w-\[\FFFD f\FFFD\F\FFFD\FFFD\] {
+  width: �f���;
+}
+
 .w-full {
   width: 100%;
 }
