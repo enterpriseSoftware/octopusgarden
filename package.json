@@ -1,0 +1,21 @@
+{
+  "name": "octopusgarden",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enterpriseSoftware/octopusgarden.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enterpriseSoftware/octopusgarden/issues"
+  },
+  "homepage": "https://github.com/enterpriseSoftware/octopusgarden#readme"
+}
