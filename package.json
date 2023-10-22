@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/enterpriseSoftware/octopusgarden/issues"
   },
-  "homepage": "https://github.com/enterpriseSoftware/octopusgarden#readme"
+  "homepage": "https://github.com/enterpriseSoftware/octopusgarden#readme",
+  "dependencies": {
+    "flowbite": "^1.8.1"
+  }
 }
