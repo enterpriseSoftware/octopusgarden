@@ -18,6 +18,8 @@
     "url": "https://github.com/enterpriseSoftware/octopusgarden/issues"
   },
   "homepage": "https://github.com/enterpriseSoftware/octopusgarden#readme",
-  "dependencies": {    
+  "devDependencies": {
+    "flowbite": "^1.8.1",
+    "tailwindcss": "^3.3.3"
   }
 }
