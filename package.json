@@ -4,7 +4,7 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css, ./src/index.htm -o ./dist/index.html, ./src/assets/images/octopus.png -o./dist/assets/images/octopus.png",
     "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "repository": {
