@@ -2,7 +2,7 @@
 module.exports = {
   content: ["./node_modules/flowbite/**/*.js"],
   plugins: [require("flowbite/plugin")],
-  content: ["./src/**/*.{html,js}"],
+  content: ["./**/*.{html,js}"],
   darkMode: "class",
   theme: {
     extend: {
