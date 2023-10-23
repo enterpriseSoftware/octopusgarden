@@ -4,8 +4,8 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css, ./src/index.html -o ./dist/index.html, ./src/assets/images/OGLogo.png -o ./dist/assets/images/OGLogo.png",
-    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"   
   },
   "repository": {
     "type": "git",
