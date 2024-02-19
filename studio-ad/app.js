@@ -21,7 +21,7 @@ form.addEventListener("submit", async (e) => {
   const message = messageInput.value;
 
   try {
-    await axios.post("/api/studio-ad", {
+    await axios.post("/.netlify/functions/studio-ad", {
       name,
       email,
       subject,
