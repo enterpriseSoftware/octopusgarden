@@ -3,6 +3,8 @@ const postmark = require("postmark");
 
 exports.handler = async (event, context) => {
   const method = event.httpMethod;
+  console.log(`http method = ${method}`);
+  
   if (method !== "POST") {
     return {
       statusCode: 405,
