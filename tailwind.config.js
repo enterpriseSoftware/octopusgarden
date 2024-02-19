@@ -1,8 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./node_modules/flowbite/**/*.js"],
+  content: [
+    "./node_modules/flowbite/**/*.js",
+    "./MusicVideos.html",
+    "./studio-ad/index.html"
+  ],
   plugins: [require("flowbite/plugin")],
-  content: ["./**/*.{html,js}"],
   darkMode: "class",
   theme: {
     extend: {
@@ -28,7 +31,6 @@ module.exports = {
         "ui-sans-serif",
         "system-ui",
         "-apple-system",
-        "system-ui",
         "Segoe UI",
         "Roboto",
         "Helvetica Neue",
@@ -45,7 +47,6 @@ module.exports = {
         "ui-sans-serif",
         "system-ui",
         "-apple-system",
-        "system-ui",
         "Segoe UI",
         "Roboto",
         "Helvetica Neue",
@@ -59,5 +60,5 @@ module.exports = {
       ],
     },
   },
-  plugins: [],
+  // Removed the empty plugins array as it's redundant when you already have plugins defined above
 };
