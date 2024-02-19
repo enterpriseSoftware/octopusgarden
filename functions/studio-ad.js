@@ -33,7 +33,7 @@ exports.handler = async (event, context) => {
           From: 'webologist@enterprisesoftware.biz',
           To: EMAIL_TO,
           Subject: `${subject} from ${name}`,
-          HtmlBody: `<p>from: ${email}</p><p>message:${message}</p>`,
+          HtmlBody: `<p>${name}</p><p>from: ${email}</p><p>message:${message}</p>`,
           MessageStream: "outbound",
         },
         (error, result) => {
