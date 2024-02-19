@@ -30,10 +30,10 @@ exports.handler = async (event, context) => {
     await new Promise((resolve, reject) => {
       client.sendEmail(
         {
-          From: email,
+          From: 'webologist@enterprisesoftware.biz',
           To: EMAIL_TO,
           Subject: `${subject} from ${name}`,
-          HtmlBody: `<p>${message}</p>`,
+          HtmlBody: `<p>from: ${email}</p><p>message:${message}</p>`,
           MessageStream: "outbound",
         },
         (error, result) => {
