@@ -3,7 +3,8 @@ module.exports = {
   content: [
     "./node_modules/flowbite/**/*.js",
     "./MusicVideos.html",
-    "./studio-ad/index.html"
+    "./studio-ad/index.html",
+    "./index.html",
   ],
   plugins: [require("flowbite/plugin")],
   darkMode: "class",
