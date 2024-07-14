@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /public/downloads/studio-prep.pdf
+Disallow: /downloads/studio-prep.pdf

@@ -33,14 +33,24 @@ form.addEventListener("submit", async (e) => {
     subjectInput.value = "";
     messageInput.value = "";
     sendTitle.textContent = "Message Sent!";
+    
+    // Trigger PDF download
+    const pdfUrl = '/downloads/studio-prep.pdf'; // Correct path relative to the root of your site
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'studio-prep.pdf'; // Desired file name
+    document.body.appendChild(link); // Append to the body
+    link.click();
+    document.body.removeChild(link); // Remove the link after clicking
+
     setTimeout(() => {
       sendTitle.textContent = "Contact Us";
     }, 3000);
   } catch (error) {
     emailAlert.style.display = "block";
-    emailAlert.textContent = emailAlert.textContent = error.message;
-    btn.innerHTML = "Email for Consoltation";
+    emailAlert.textContent = error.message;
+    btn.innerHTML = "Email for Consultation";
   }
   btn.disabled = false;
-  btn.innerHTML = "Email for Consoltation";
+  btn.innerHTML = "Email for Consultation";
 });
